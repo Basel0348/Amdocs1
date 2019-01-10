@@ -3,6 +3,7 @@ package com.example.Amdocs1;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
 
 import com.example.Amdocs1.domain.logFileRepository;
 
@@ -20,6 +21,7 @@ public class Amdocs1Application {
 		SpringApplication.run(Amdocs1Application.class, args);
 		logger.info("Hello Spring Boot");
 	}
+	
 	
 
 
